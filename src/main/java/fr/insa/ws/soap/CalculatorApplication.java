@@ -3,7 +3,7 @@ package fr.insa.ws.soap;
 import jakarta.xml.ws.Endpoint;
 
 public class CalculatorApplication {
-    public static String host = "localhost";
+    public static String host = "0.0.0.0";
     public static short port = 8089;
 
     public void demarrerService() {
